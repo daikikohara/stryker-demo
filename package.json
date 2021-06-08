@@ -1,18 +1,19 @@
 {
   "scripts": {
-    "test": "jest"
+    "test:unit": "jest",
+    "test:mutation": "stryker run"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
-    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-env": "^7.14.4",
     "@babel/preset-typescript": "^7.13.0",
-    "@stryker-mutator/core": "^5.0.0",
-    "@stryker-mutator/jest-runner": "^5.0.0",
-    "@stryker-mutator/typescript-checker": "^5.0.0",
+    "@stryker-mutator/core": "^5.0.1",
+    "@stryker-mutator/jest-runner": "^5.0.1",
+    "@stryker-mutator/typescript-checker": "^5.0.1",
     "@types/jest": "^26.0.23",
-    "babel-jest": "^26.6.3",
-    "jest": "^26.6.3",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.2.4"
+    "babel-jest": "^27.0.2",
+    "jest": "^27.0.4",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
   }
 }
